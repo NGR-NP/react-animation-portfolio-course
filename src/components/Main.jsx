@@ -146,23 +146,23 @@ const Main = () => {
           </motion.h3>
         </Contact>
         <Blog to="/blog">
-          <motion.h3 whileHover={{ scale: 1.1 }} whileTab={{ scale: 0.9 }}>
+          <motion.h3 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
             Blog
           </motion.h3>
         </Blog>
         <Work to="/work" click={click}>
-          <motion.h3 whileHover={{ scale: 1.1 }} whileTab={{ scale: 0.9 }}>
+          <motion.h3 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
             Work
           </motion.h3>
         </Work>
         <BottomBar>
           <About to="/about" click={click}>
-            <motion.h2 whileHover={{ scale: 1.1 }} whileTab={{ scale: 0.9 }}>
+            <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
               About
             </motion.h2>
           </About>
           <Skills to="/skills">
-            <motion.h2 whileHover={{ scale: 1.1 }} whileTab={{ scale: 0.9 }}>
+            <motion.h2 whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
               My Skills
             </motion.h2>
           </Skills>
