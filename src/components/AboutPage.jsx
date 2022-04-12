@@ -6,6 +6,7 @@ import PowerButton from "../subComponents/PowerButton";
 import SpaceMAN from "../assets/Images/spaceman.png";
 import styledComponents, { keyframes, ThemeProvider } from "styled-components";
 import ParticleComponent from "../subComponents/ParticleComponent";
+import BigTitle from "../subComponents/BigTitle";
 const Box = styledComponents.div`
   background-color: ${(props) => props.theme.body};
   width: 100vw;
@@ -76,6 +77,7 @@ const AboutPage = () => {
           magnam esse a iusto quis ipsa cupiditate necessitatibus, cum maxime
           enim!
         </Main>
+        <BigTitle text="About" top="10%" left="35%" />
       </Box>
     </ThemeProvider>
   );
