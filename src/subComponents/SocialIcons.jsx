@@ -30,7 +30,7 @@ const SocialIcons = (props) => {
       <motion.div
         initial={{ transform: "scale(0)" }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 3.7 }}
+        transition={{ type: "spring", duration: 1, delay: 1.2 }}
       >
         <Navlink
           style={{ color: "inherit" }}
@@ -48,7 +48,7 @@ const SocialIcons = (props) => {
       <motion.div
         initial={{ transform: "scale(0)" }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 3.9 }}
+        transition={{ type: "spring", duration: 1, delay: 1.4 }}
       >
         <Navlink
           style={{ color: "inherit" }}
@@ -66,7 +66,7 @@ const SocialIcons = (props) => {
       <motion.div
         initial={{ transform: "scale(0)" }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 4.1 }}
+        transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
         <Navlink
           style={{ color: "inherit" }}
@@ -84,7 +84,7 @@ const SocialIcons = (props) => {
       <motion.div
         initial={{ transform: "scale(0)" }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 4.3 }}
+        transition={{ type: "spring", duration: 1, delay: 1.8 }}
       >
         <Navlink
           style={{ color: "inherit" }}
@@ -108,7 +108,7 @@ const SocialIcons = (props) => {
         transition={{
           type: "spring",
           duration: 1,
-          delay: 3.5,
+          delay: 0.8,
         }}
       />
     </Icons>
